@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic&family=Nanum+Pen+Script&display=swap');
+*{
+    font-family: 'Jua', sans-serif;
+}
+.wrapper .sidebar {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 162, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+.logo{
+    color:white;
+    font-size:30px;
+}
+.search{
+    position: relative;
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 0 solid;
+    border-radius: 10px;
+    font-size:20px;
+}
+.search:focus{
+    outline:none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:black;
+}
+.sideitem{
+    text-decoration: none;
+    font-size:25px;
+    margin-top:30px;
+}
+/* sidebar */
+.main{
+    left:0;
+    display: flex;
+    margin-left:225px;
+    width:400px;
+    height:400px;
+    background-color: blueviolet;
+}
